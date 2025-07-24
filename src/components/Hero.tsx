@@ -20,12 +20,12 @@ export function Hero() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           {/* Avatar */}
-          {/*<div className="mb-8">
-            <Avatar className="w-32 h-32 mx-auto border-4 border-primary/20">
-              <AvatarImage src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face" />
+          <div className="mb-8">
+            <Avatar className="w-50 h-50 mx-auto">
+              <AvatarImage src="profile.png" />
               <AvatarFallback className="gradient-purple-pink text-white text-2xl">TN</AvatarFallback>
             </Avatar>
-          </div>*/}
+          </div>
 
           {/* Main content */}
           <div className="space-y-6">
@@ -45,14 +45,14 @@ export function Hero() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-              <ContactForm>
+               {/*<ContactForm>
                 <Button 
                   size="lg" 
                   className="gradient-purple-pink hover:opacity-90 transition-all duration-300 transform hover:scale-105"
                 >
                   {t('contactMe')}
                 </Button>
-              </ContactForm>
+              </ContactForm>*/}
               <Button 
                 size="lg" 
                 variant="outline"

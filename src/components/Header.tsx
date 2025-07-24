@@ -1,5 +1,5 @@
 import { Button } from "./ui/button";
-import { Menu, Moon, Sun, Github, Linkedin, Mail } from "lucide-react";
+import { Menu, Moon, Sun, Github, Linkedin, Mail, Figma } from "lucide-react";
 import { useState } from "react";
 import { useLanguage } from "../context/LanguageContext";
 import { LanguageSelector } from "./LanguageSelector";
@@ -52,12 +52,12 @@ export function Header() {
             >
               {t('projects')}
             </button>
-            <button 
+             {/* <button 
               onClick={() => scrollToSection('contact')} 
               className="hover:text-primary transition-colors"
             >
               {t('contact')}
-            </button>
+            </button>*/}
           </div>
 
           {/* Actions */}
@@ -68,11 +68,16 @@ export function Header() {
                   <Linkedin className="h-5 w-5" />
                 </a>
               </Button>
-              <ContactForm>
+              <Button variant="ghost" size="icon" asChild>
+                <a href="https://www.figma.com/design/aw162XJfBDSRbRobdPl3gC/Am%C3%A9rica-library?node-id=4348-301&t=uIMjBaZNjI9SbLMp-1" target="_blank" rel="noopener noreferrer">
+                  <Figma className="h-5 w-5" />
+                </a>
+              </Button>
+               {/*<ContactForm>
                 <Button variant="ghost" size="icon">
                   <Mail className="h-5 w-5" />
                 </Button>
-              </ContactForm>
+              </ContactForm>*/}
             </div>
             
             <LanguageSelector />

@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
-import { Heart, Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Heart, Linkedin, Mail, Figma } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 import { ContactForm } from "./ContactForm";
 
@@ -10,6 +10,7 @@ export function Footer() {
 
   const socialLinks = [
     { icon: Linkedin, href: "https://www.linkedin.com/in/americaaleman/", label: "LinkedIn" },
+    { icon: Figma, href: "https://www.figma.com/design/aw162XJfBDSRbRobdPl3gC/Am%C3%A9rica-library?node-id=4348-301&t=uIMjBaZNjI9SbLMp-1", label: "Figma" },
   ];
 
   const scrollToSection = (sectionId: string) => {
@@ -23,7 +24,7 @@ export function Footer() {
     <footer id="contact" className="bg-muted/30 border-t border-border">
       <div className="container mx-auto px-4 py-12">
         <div className="max-w-6xl mx-auto">
-          {/* Contact section */}
+          {/* Contact section 
           <div className="text-center mb-12">
             <h2 className="text-2xl md:text-3xl lg:text-4xl mb-4">
               {t('readyToCollaborate')} <span className="gradient-text">{t('collaborate')}</span>?
@@ -40,7 +41,7 @@ export function Footer() {
                 {t('sendMessage')}
               </Button>
             </ContactForm>
-          </div>
+          </div>*/}
 
           <Separator className="mb-8" />
 

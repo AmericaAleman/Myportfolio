@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Separator } from "./ui/separator";
 import { ArrowLeft, ExternalLink, Github, Code, Target, Lightbulb, TrendingUp } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
@@ -56,7 +56,7 @@ export function ProjectDetail({ projectId }: ProjectDetailProps) {
             <h1 className="mb-4 gradient-text">{project.title}</h1>
             <p className="text-muted-foreground mb-6">{project.fullDescription}</p>
             
-            <div className="flex flex-wrap gap-3 mb-6">
+            {/* <div className="flex flex-wrap gap-3 mb-6">
               <Button className="gradient-purple-pink hover:opacity-90">
                 <ExternalLink className="w-4 h-4 mr-2" />
                 {t('viewDemo')}
@@ -65,7 +65,7 @@ export function ProjectDetail({ projectId }: ProjectDetailProps) {
                 <Github className="w-4 h-4 mr-2" />
                 {t('viewCode')}
               </Button>
-            </div>
+            </div>*/}
           </div>
 
           {/* Project Image */}
@@ -117,7 +117,7 @@ export function ProjectDetail({ projectId }: ProjectDetailProps) {
               </CardContent>
             </Card>
 
-            {/* Challenges & Solutions */}
+            {/* Challenges & Solutions 
             <Card className="gradient-card border-border/50">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
@@ -130,9 +130,9 @@ export function ProjectDetail({ projectId }: ProjectDetailProps) {
                   {project.challenges}
                 </p>
               </CardContent>
-            </Card>
+            </Card>*/}
 
-            {/* Results & Impact */}
+            {/* Results & Impact 
             <Card className="gradient-card border-border/50">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
@@ -145,7 +145,7 @@ export function ProjectDetail({ projectId }: ProjectDetailProps) {
                   {project.results}
                 </p>
               </CardContent>
-            </Card>
+            </Card>*/}
           </div>
 
           {/* Sidebar */}
@@ -170,7 +170,7 @@ export function ProjectDetail({ projectId }: ProjectDetailProps) {
               </CardContent>
             </Card>
 
-            {/* Quick Actions */}
+            {/* Quick Actions 
             <Card className="gradient-card border-border/50">
               <CardHeader>
                 <CardTitle>Quick Actions</CardTitle>
@@ -185,9 +185,9 @@ export function ProjectDetail({ projectId }: ProjectDetailProps) {
                   {t('viewCode')}
                 </Button>
               </CardContent>
-            </Card>
+            </Card>*/}
 
-            {/* Project Stats */}
+            {/* Project Stats 
             <Card className="gradient-card border-border/50">
               <CardHeader>
                 <CardTitle>Project Stats</CardTitle>
@@ -210,11 +210,11 @@ export function ProjectDetail({ projectId }: ProjectDetailProps) {
                   <span className="text-sm">1-2 developers</span>
                 </div>
               </CardContent>
-            </Card>
+            </Card>*/}
           </div>
         </div>
 
-        {/* Call to Action */}
+        {/* Call to Action 
         <Card className="mt-12 gradient-card border-border/50">
           <CardContent className="text-center py-8">
             <h3 className="mb-4 gradient-text">Interested in a similar project?</h3>
@@ -225,7 +225,7 @@ export function ProjectDetail({ projectId }: ProjectDetailProps) {
               {t('contactMe')}
             </Button>
           </CardContent>
-        </Card>
+        </Card>*/}
       </main>
     </div>
   );

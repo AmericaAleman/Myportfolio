@@ -153,7 +153,7 @@ export const translations: Record<Language, TranslationData> = {
         ],
         challenges: "",
         results: "",
-        image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80",
+        image: "chatbot.png",
         demoUrl: "#",
         githubUrl: "#"
       },
@@ -173,13 +173,13 @@ export const translations: Record<Language, TranslationData> = {
         ],
         challenges: ".",
         results: "",
-        image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=800&q=80",
+        image: "management.png",
         demoUrl: "#",
         githubUrl: "#"
       },
       {
         id: "weather-dashboard",
-        title: "Core Business",
+        title: "Business Platform",
         shortDescription: "Creation of a new system that will host existing functionalities using the DS created.",
         fullDescription: "Design and build a scalable SaaS platform that streamlines finance, administrative, and HR operations for businesses. As a UX/UI designer, I led the user-centered design process   from research to delivery—conducting UX research to identify user needs, mapping customer journeys, and translating insights into intuitive user flows and high-fidelity interfaces. I also created a design system to ensure consistency across modules and collaborated closely with developers to support front-end implementation.",
         technologies: ["Figma","UX research", "Journey maps", "HTML", "CSS"],
@@ -197,7 +197,7 @@ export const translations: Record<Language, TranslationData> = {
         ],
         challenges: "It required a deep understanding of diverse business workflows and translating them into clear and efficient digital experiences for various user roles. This involved conducting user research, mapping journeys, defining intuitive flows, and building a design system to ensure visual and functional consistency across modules. Additionally, close collaboration with technical teams and stakeholders was essential to ensure that the solutions were both feasible and aligned with business goals.",
         results: "By applying a user-centered approach, the platform streamlined internal processes, reduced operational errors, and significantly improved overall efficiency. The intuitive interface enabled users to make faster, more informed decisions, leading to increased product adoption and higher satisfaction among enterprise clients. As a result, the company enhanced customer retention and strengthened its competitive positioning in the market.",
-        image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=800&q=80",
+        image: "core-business.png",
         demoUrl: "#",
         githubUrl: "#"
       }
@@ -305,7 +305,7 @@ export const translations: Record<Language, TranslationData> = {
         ],
         challenges: "",
         results: "",
-        image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80",
+        image: "chatbot.png",
         demoUrl: "#",
         githubUrl: "#"
       },
@@ -325,13 +325,13 @@ export const translations: Record<Language, TranslationData> = {
         ],
         challenges: "",
         results: "",
-        image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=800&q=80",
+        image: "management.png",
         demoUrl: "#",
         githubUrl: "#"
       },
       {
         id: "weather-dashboard",
-        title: "Core Business",
+        title: "Business Platform",
         shortDescription: "Creación de un nuevo sistema que albergará las funcionalidades existentes con el uso del DS creado.",
         fullDescription: "Diseñé y construí una plataforma SaaS escalable que optimiza las operaciones financieras, administrativas y de RR. HH. de las empresas. Como diseñador de UX/UI, lideré el proceso de diseño centrado en el usuario desde la investigación hasta la entrega: realicé investigación de UX para identificar las necesidades del usuario, mapeé las experiencias del cliente y traduje la información en flujos de usuario intuitivos e interfaces de alta fidelidad. También creé un sistema de diseño para garantizar la coherencia entre los módulos y colaboré estrechamente con los desarrolladores para apoyar la implementación del frontend.",
         technologies: ["Figma","UX research", "Journey maps", "HTML", "CSS"],
@@ -349,7 +349,7 @@ export const translations: Record<Language, TranslationData> = {
         ],
         challenges: "Fue necesario comprender procesos empresariales diversos y transformarlos en experiencias digitales claras y eficientes para distintos perfiles de usuario. Esto implicó realizar investigación centrada en el usuario, mapear journeys, definir flujos intuitivos y crear un sistema de diseño que garantizara consistencia visual y funcional entre módulos. Asimismo, se requirió una colaboración constante con equipos técnicos y stakeholders para asegurar que las soluciones fueran viables y alineadas con los objetivos del negocio.",
         results: "La implementación de un enfoque centrado en el usuario permitió optimizar procesos internos, reducir errores operativos y mejorar la eficiencia general de la plataforma. Gracias a la claridad de la interfaz y a la facilidad de uso, los usuarios pudieron tomar decisiones más rápidas e informadas. Esto se tradujo en una mayor adopción del producto, aumento en la satisfacción de los clientes empresariales y una mejora en la retención del servicio. En consecuencia, la empresa fortaleció su propuesta de valor y su posicionamiento competitivo en el mercado.",
-        image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=800&q=80",
+        image: "core-business.png",
         demoUrl: "#",
         githubUrl: "#"
       }

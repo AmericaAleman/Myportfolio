@@ -127,7 +127,7 @@ export function About() {
             <div className="relative">
               <div className="aspect-square rounded-2xl overflow-hidden border border-border gradient-card">
                 <img
-                  src="https://images.unsplash.com/photo-1555952494-efd681c7e3f9?w=500&h=500&fit=crop"
+                  src="workspace.jpg"
                   alt="Workspace"
                   className="w-full h-full object-cover"
                 />
