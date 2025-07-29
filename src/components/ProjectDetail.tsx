@@ -1,8 +1,8 @@
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { Separator } from "./ui/separator";
-import { ArrowLeft, ExternalLink, Github, Code, Target, Lightbulb, TrendingUp } from "lucide-react";
+{/* import { Separator } from "./ui/separator";*/}
+import { ArrowLeft, Code, Target } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 import { useNavigation } from "../context/NavigationContext";
 import { ImageWithFallback } from "./figma/ImageWithFallback";

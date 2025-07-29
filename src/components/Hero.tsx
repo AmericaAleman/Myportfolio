@@ -3,7 +3,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { ArrowDown } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 import { CVDownloadButton } from "./CVDownloadButton";
-import { ContactForm } from "./ContactForm";
+{/* import { ContactForm } from "./ContactForm";*/} 
 
 export function Hero() {
   const { t } = useLanguage();

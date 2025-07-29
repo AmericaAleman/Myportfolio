@@ -1,12 +1,12 @@
 import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
-import { Heart, Linkedin, Mail, Figma } from "lucide-react";
+import { Heart, Linkedin, Figma } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
-import { ContactForm } from "./ContactForm";
+{/* import { ContactForm } from "./ContactForm";*/}
 
 export function Footer() {
   const { t } = useLanguage();
-  const currentYear = new Date().getFullYear();
+ {/*  const currentYear = new Date().getFullYear();*/}
 
   const socialLinks = [
     { icon: Linkedin, href: "https://www.linkedin.com/in/americaaleman/", label: "LinkedIn" },
