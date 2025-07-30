@@ -19,7 +19,7 @@ export const downloadCV = (language: 'es' | 'en') => {
       {
         title: "Diseñadora UX/UI",
         company: "Tecnológico de Monterrey | Proceti",
-        period: "Octubre 2024 - Abril 2024 | Ciudad de México",
+        period: "Octubre 2024 - Abril 2025 | Ciudad de México",
         description: "Diseño de un chat interactivo con inteligencia artificial para estudiantes universitarios, enfocado en ofrecer conversaciones personalizadas por materia."
       },
       {
@@ -119,7 +119,7 @@ export const downloadCV = (language: 'es' | 'en') => {
       {
         title: "UX/UI Designer",
         company: "Tecnológico de Monterrey | Proceti",
-        period: "October 2024 - April 2024 | Mexico City",
+        period: "October 2024 - April 2025 | Mexico City",
         description: "Design of an AI-powered interactive chat for university students, focused on delivering personalized conversations by subject."
       },
       {
