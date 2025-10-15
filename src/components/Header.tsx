@@ -143,11 +143,11 @@ export function Header() {
                     <Linkedin className="h-5 w-5" />
                   </a>
                 </Button>
-                <ContactForm>
+                {/*<ContactForm>
                   <Button variant="ghost" size="icon">
                     <Mail className="h-5 w-5" />
                   </Button>
-                </ContactForm>
+                </ContactForm>*/}
               </div>
             </div>
           </div>

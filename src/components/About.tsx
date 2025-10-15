@@ -28,6 +28,26 @@ export function About() {
     "Notion",
     "Miro",
     "Journey maps",
+    "Wireframing",
+    "Prototyping",
+    "User flows",
+    "User research",
+    "Usability testing",
+    "A/B testing",
+    "Responsive design",
+    "Accessibility",
+    "SEO",
+    "Communication",
+    "Teamwork",
+    "Problem-solving",
+    "Creativity",
+    "Time management",
+    "Adaptability",
+    "Critical thinking",
+    "Attention to detail",
+    "Empathy",
+    "Collaboration",
+    "Leadership"
   ];
 
   const features = [
@@ -76,7 +96,7 @@ export function About() {
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <div className="text-center mb-16">
-            <h2 className="mb-4 gradient-text">
+            <h2 className="mb-4 text-3xl gradient-text">
               {t("aboutTitle")}
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
@@ -89,15 +109,15 @@ export function About() {
             {/* Text content */}
             <div className="space-y-6">
               <div className="space-y-4">
-                <h3 className="gradient-text">
+                <h3 className="text-3xl gradient-text">
                   {language === "en"
                     ? "My Story"
                     : "Mi Historia"}
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
                   {language === "en"
-                    ? "Since 2016, I’ve built my career in tech, starting with digital marketing and e-commerce. My curiosity led me to programming and becoming a Front-end Developer, where I discovered a strong passion for UX/UI design. I believe intuitive experiences are essential to any product’s success. I’ve worked with BBVA, Santander, and agencies like Think Outside, blending design and development. One highlight was designing an AI chatbot for Tec de Monterrey, which later led me to lead the creation of a design system at Cloud Core."
-                    : "Desde 2016, he desarrollado mi carrera en tecnología, comenzando con marketing digital y comercio electrónico. Mi curiosidad me llevó a la programación y a convertirme en desarrollador front-end, donde descubrí una gran pasión por el diseño UX/UI. Creo que las experiencias intuitivas son esenciales para el éxito de cualquier producto. He trabajado con BBVA, Santander y agencias como Think Outside, integrando diseño y desarrollo. Un logro destacado fue el diseño de un chatbot de IA para el Tec de Monterrey, lo que posteriormente me llevó a liderar la creación de un sistema de diseño en Cloud Core."}
+                    ? "Since 2016, I’ve built my career in tech, starting with digital marketing and e-commerce. My curiosity led me to programming and becoming a Front-end Developer, where I discovered a strong passion for UX/UI design. I believe intuitive experiences are essential to any product’s success. I’ve worked with BBVA, Santander, and agencies Think Outside, also in a company that create software for some companies, blending design and development. One highlight was designing an AI chatbot for Tec de Monterrey, which later led me to lead the creation of a design system at Cloud Core."
+                    : "Desde 2016, he desarrollado mi carrera en tecnología, comenzando con marketing digital y comercio electrónico. Mi curiosidad me llevó a la programación y a convertirme en desarrolladora front-end, donde descubrí una gran pasión por el diseño UX/UI. Creo que las experiencias intuitivas son esenciales para el éxito de cualquier producto. He trabajado con BBVA, Santander, agencias de marketing digital Think Outside, empresas en el ramo del software empresarial, integrando diseño y desarrollo. Un logro destacado fue el diseño de un chatbot de IA para el Tec de Monterrey, lo que posteriormente me llevó a liderar la creación de un sistema de diseño en Cloud Core."}
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
                   {language === "en"
@@ -108,7 +128,7 @@ export function About() {
 
               {/* Skills */}
               <div className="space-y-4">
-                <h4 className="gradient-text">{t("skills")}</h4>
+                <h4 className="text-2xl gradient-text">{t("skills")}</h4>
                 <div className="flex flex-wrap gap-2">
                   {skills.map((skill, index) => (
                     <Badge
@@ -127,8 +147,8 @@ export function About() {
             <div className="relative">
               <div className="aspect-square rounded-2xl overflow-hidden border border-border gradient-card">
                 <img
-                  src="workspace.jpg"
-                  alt="Workspace"
+                  src="meIA.png"
+                  alt="Me"
                   className="w-full h-full object-cover"
                 />
               </div>

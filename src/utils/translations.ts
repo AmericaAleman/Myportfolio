@@ -117,11 +117,11 @@ export const translations: Record<Language, TranslationData> = {
     heroRole: "UX/UI Designer",
     heroDescription: "I strongly believe that well-designed technology can improve people’s lives.",
     contactMe: "Contact Me",
-    downloadCV: "Download CV",
+    downloadCV: "Download Resume",
     
     // About Section
     aboutTitle: "About Me",
-    aboutDescription: "I'm a UX/UI Designer with a strong background in front-end development and digital product strategy. I've contributed to projects in digital banking, education, and enterprise software, applying user-centered methodologies, research, and design thinking.",
+    aboutDescription: "I'm a UX/UI Designer with a strong background in front-end development and digital product strategy. I've contributed to projects in digital banking, education, enterprise software, healthcare, beauty, and more, applying user-centered methodologies, research, and design thinking.",
     skills: "Skills",
     experience: "Experience",
     
@@ -153,8 +153,8 @@ export const translations: Record<Language, TranslationData> = {
         ],
         challenges: "",
         results: "",
-        image: "chatbot.png",
-        demoUrl: "#",
+        image: "chat IA.jpg",
+        demoUrl: "https://www.figma.com/proto/CVpz6k8uPCQJxtuUYQMlDp/Chat-acad%C3%A9mico?node-id=0-1&t=L9bmTv3Q9Ri1jtnu-1",
         githubUrl: "#"
       },
       {
@@ -173,8 +173,8 @@ export const translations: Record<Language, TranslationData> = {
         ],
         challenges: ".",
         results: "",
-        image: "management.png",
-        demoUrl: "#",
+        image: "management.jpg",
+        demoUrl: "https://www.figma.com/proto/Nj4zuRN75BPpemSyX90qiE/Chat-interactivo?page-id=0%3A1&node-id=3-1656&p=f&viewport=360%2C224%2C0.23&t=p4TDdO3m8epfXYBf-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3%3A2",
         githubUrl: "#"
       },
       {
@@ -193,12 +193,11 @@ export const translations: Record<Language, TranslationData> = {
           "Prototyping in Figma",
           "Delivery of high-fidelity mockups",
           "Translation of design into clear technical specs",
-          "Collaboration with development using HTML, CSS, and JavaScript"
         ],
         challenges: "It required a deep understanding of diverse business workflows and translating them into clear and efficient digital experiences for various user roles. This involved conducting user research, mapping journeys, defining intuitive flows, and building a design system to ensure visual and functional consistency across modules. Additionally, close collaboration with technical teams and stakeholders was essential to ensure that the solutions were both feasible and aligned with business goals.",
         results: "By applying a user-centered approach, the platform streamlined internal processes, reduced operational errors, and significantly improved overall efficiency. The intuitive interface enabled users to make faster, more informed decisions, leading to increased product adoption and higher satisfaction among enterprise clients. As a result, the company enhanced customer retention and strengthened its competitive positioning in the market.",
         image: "core-business.png",
-        demoUrl: "#",
+        demoUrl: "https://www.figma.com/proto/o2GbevFNqAzpRmmpt5ABDH/Core-B?page-id=0%3A1&node-id=1-5&viewport=544%2C290%2C0.71&t=y8p8zQ4K7gADhNqq-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A5",
         githubUrl: "#"
       }
     ],
@@ -244,12 +243,12 @@ export const translations: Record<Language, TranslationData> = {
     cvDownloadError: "Error downloading CV. Please try again.",
     
     // Project Detail View
-    backToProjects: "← Back to Projects",
+    backToProjects: "Back to Main",
     projectOverview: "Project Overview",
     keyFeatures: "Key Features",
     challengesAndSolutions: "Challenges & Solutions",
     resultsAndImpact: "Results & Impact",
-    viewDemo: "View Demo",
+    viewDemo: "View Demo Figma",
     viewCode: "View Code",
     technologiesUsed: "Technologies Used"
   },
@@ -267,13 +266,13 @@ export const translations: Record<Language, TranslationData> = {
     heroGreeting: "Hola, soy",
     heroName: "América Alemán",
     heroRole: "Diseñadora UX/UI",
-    heroDescription: "Creo firmemente que la tecnología bien diseñada puede mejorar la vida de las personas.",
+    heroDescription: "Soy una firme creyente de que la tecnología bien diseñada mejora la vida de las personas.",
     contactMe: "Contáctame",
     downloadCV: "Descargar CV",
     
     // About Section
     aboutTitle: "Acerca de Mí",
-    aboutDescription: "Soy una diseñadora UX/UI con una sólida formación en desarrollo front-end y estrategia de productos digitales. He contribuido a proyectos de banca digital, educación y software empresarial, aplicando metodologías centradas en el usuario, investigación y pensamiento de diseño.",
+    aboutDescription: "Soy una diseñadora UX/UI con una sólida formación en desarrollo front-end y estrategia de productos digitales. He contribuido a proyectos de banca digital, educación, software empresarial, salud, belleza y más, aplicando metodologías centradas en el usuario, investigación y pensamiento de diseño.",
     skills: "Habilidades",
     experience: "Experiencia",
     
@@ -288,16 +287,12 @@ export const translations: Record<Language, TranslationData> = {
       {
         id: "ecommerce-platform",
         title: "IA Chat Bot",
-        shortDescription: "Se diseñó un chatbot que usa IA, especializado en diversas materias para apoyar a estudiantes universitarios.",
+        shortDescription: "Se diseñó un chatbot que usa IA, especializado en diversas materias para apoyar universitarios.",
         fullDescription: "Diseño de un chat interactivo basado en inteligencia artificial para estudiantes universitarios, enfocado en ofrecer conversaciones personalizadas por materia. El objetivo fue mejorar la experiencia de estudio mediante un asistente virtual que se adapta al contexto académico de cada estudiante.",
         technologies: ["Figma", "Bamboo Design System", "Jira"],
         features: [
           "Comunicación clara con equipos técnicos y no técnicos",
           "Colaboración interdisciplinaria con stakeholders y developers",
-          "Facilitación de workshops y sesiones de co-creación",
-          "Pensamiento estratégico y centrado en el usuario",
-          "Toma de decisiones basada en datos y empatía",
-          "Organización de fases de investigación, diseño y validación",
           "Liderazgo en procesos de diseño eficientes",
           "Autonomía en la resolución de problemas complejos",
           "Adaptabilidad a cambios y retroalimentación",
@@ -306,7 +301,7 @@ export const translations: Record<Language, TranslationData> = {
         challenges: "",
         results: "",
         image: "chatbot.png",
-        demoUrl: "#",
+        demoUrl: "https://www.figma.com/proto/CVpz6k8uPCQJxtuUYQMlDp/Chat-acad%C3%A9mico?node-id=0-1&t=L9bmTv3Q9Ri1jtnu-1",
         githubUrl: "#"
       },
       {
@@ -326,31 +321,29 @@ export const translations: Record<Language, TranslationData> = {
         challenges: "",
         results: "",
         image: "management.png",
-        demoUrl: "#",
+        demoUrl: "https://www.figma.com/proto/Nj4zuRN75BPpemSyX90qiE/Chat-interactivo?page-id=0%3A1&node-id=3-1656&p=f&viewport=360%2C224%2C0.23&t=p4TDdO3m8epfXYBf-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3%3A2",
         githubUrl: "#"
       },
       {
         id: "weather-dashboard",
         title: "Business Platform",
-        shortDescription: "Creación de un nuevo sistema que albergará las funcionalidades existentes con el uso del DS creado.",
+        shortDescription: "Nuevo sistema empresarial que alojará funcionalidad existente usando el DS creado.",
         fullDescription: "Diseñé y construí una plataforma SaaS escalable que optimiza las operaciones financieras, administrativas y de RR. HH. de las empresas. Como diseñador de UX/UI, lideré el proceso de diseño centrado en el usuario desde la investigación hasta la entrega: realicé investigación de UX para identificar las necesidades del usuario, mapeé las experiencias del cliente y traduje la información en flujos de usuario intuitivos e interfaces de alta fidelidad. También creé un sistema de diseño para garantizar la coherencia entre los módulos y colaboré estrechamente con los desarrolladores para apoyar la implementación del frontend.",
-        technologies: ["Figma","UX research", "Journey maps", "HTML", "CSS"],
+        technologies: ["Figma","UX research", "Journey maps"],
         features: [
            "Investigación UX: entrevistas, encuestas y pruebas de usabilidad",
             "Análisis de datos cualitativos y cuantitativos",
             "Creación de personas, mapas de empatía y customer journeys",
-            "Mapeo de experiencias complejas multicanal",
             "Diseño de interfaces accesibles y usables",
             "Documentación y mantenimiento de design systems escalables",
             "Prototipado en Figma",
             "Entrega de mockups de alta fidelidad",
             "Traducción de diseño a especificaciones técnicas claras",
-            "Colaboración con desarrollo usando HTML, CSS y JavaScript"
         ],
         challenges: "Fue necesario comprender procesos empresariales diversos y transformarlos en experiencias digitales claras y eficientes para distintos perfiles de usuario. Esto implicó realizar investigación centrada en el usuario, mapear journeys, definir flujos intuitivos y crear un sistema de diseño que garantizara consistencia visual y funcional entre módulos. Asimismo, se requirió una colaboración constante con equipos técnicos y stakeholders para asegurar que las soluciones fueran viables y alineadas con los objetivos del negocio.",
         results: "La implementación de un enfoque centrado en el usuario permitió optimizar procesos internos, reducir errores operativos y mejorar la eficiencia general de la plataforma. Gracias a la claridad de la interfaz y a la facilidad de uso, los usuarios pudieron tomar decisiones más rápidas e informadas. Esto se tradujo en una mayor adopción del producto, aumento en la satisfacción de los clientes empresariales y una mejora en la retención del servicio. En consecuencia, la empresa fortaleció su propuesta de valor y su posicionamiento competitivo en el mercado.",
         image: "core-business.png",
-        demoUrl: "#",
+        demoUrl: "https://www.figma.com/proto/o2GbevFNqAzpRmmpt5ABDH/Core-B?page-id=0%3A1&node-id=1-5&viewport=544%2C290%2C0.71&t=y8p8zQ4K7gADhNqq-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A5",
         githubUrl: "#"
       }
     ],
@@ -395,12 +388,12 @@ export const translations: Record<Language, TranslationData> = {
     cvDownloadError: "Error al descargar CV. Por favor intenta de nuevo.",
     
     // Project Detail View
-    backToProjects: "← Volver a Proyectos",
+    backToProjects: "Volver a la Página Principal",
     projectOverview: "Resumen del Proyecto",
     keyFeatures: "Características Principales",
     challengesAndSolutions: "Desafíos y Soluciones",
     resultsAndImpact: "Resultados e Impacto",
-    viewDemo: "Ver Demo",
+    viewDemo: "Ver Demo en Figma",
     viewCode: "Ver Código",
     technologiesUsed: "Tecnologías Utilizadas"
   }

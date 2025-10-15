@@ -267,13 +267,13 @@ export const downloadCVPDF = async (language: 'es' | 'en') => {
         {
           title: "Diseñadora UX/UI | Líder UX",
           company: "Cloud Core",
-          period: "Abril 2025 - Actualidad | Ciudad de México",
+          period: "Abril 2025 - Septiembre 2025 | Ciudad de México",
           description: "Diseño y construcción de una plataforma SaaS escalable que optimiza operaciones financieras, administrativas y de recursos humanos para empresas."
         },
         {
           title: "Diseñadora UX/UI",
           company: "Tecnológico de Monterrey | Proceti",
-          period: "Octubre 2024 - Abril 2024 | Ciudad de México",
+          period: "Octubre 2024 - Abril 2025 | Ciudad de México",
           description: "Diseño de un chat interactivo con inteligencia artificial para estudiantes universitarios, enfocado en ofrecer conversaciones personalizadas por materia."
         },
         {
@@ -367,13 +367,13 @@ export const downloadCVPDF = async (language: 'es' | 'en') => {
         {
           title: "UX/UI Designer | Lead UX",
           company: "Cloud Core",
-          period: "April 2025 - Present | Mexico City",
+          period: "April 2025 - September 2025 | Mexico City",
           description: "Design and build a scalable SaaS platform that streamlines finance, administrative, and HR operations for businesses."
         },
         {
           title: "UX/UI Designer",
           company: "Tecnológico de Monterrey | Proceti",
-          period: "October 2024 - April 2024 | Mexico City",
+          period: "October 2024 - April 2025 | Mexico City",
           description: "Design of an AI-powered interactive chat for university students, focused on delivering personalized conversations by subject."
         },
         {

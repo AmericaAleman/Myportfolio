@@ -2,7 +2,7 @@ import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 {/* import { Separator } from "./ui/separator";*/}
-import { ArrowLeft, Code, Target } from "lucide-react";
+import { ArrowLeft, Code, Target, ExternalLink } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 import { useNavigation } from "../context/NavigationContext";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
@@ -24,7 +24,6 @@ export function ProjectDetail({ projectId }: ProjectDetailProps) {
         <div className="text-center">
           <h2 className="mb-4">Project not found</h2>
           <Button onClick={navigateToHome} variant="outline">
-            <ArrowLeft className="w-4 h-4 mr-2" />
             Back to Home
           </Button>
         </div>
@@ -53,9 +52,7 @@ export function ProjectDetail({ projectId }: ProjectDetailProps) {
         {/* Project Header */}
         <div className="mb-8">
           <div className="mb-6">
-            <h1 className="mb-4 gradient-text">{project.title}</h1>
-            <p className="text-muted-foreground mb-6">{project.fullDescription}</p>
-            
+            <h1 className="mb-4 gradient-text text-2xl font-bold">{project.title}</h1>            
             {/* <div className="flex flex-wrap gap-3 mb-6">
               <Button className="gradient-purple-pink hover:opacity-90">
                 <ExternalLink className="w-4 h-4 mr-2" />
@@ -170,22 +167,25 @@ export function ProjectDetail({ projectId }: ProjectDetailProps) {
               </CardContent>
             </Card>
 
-            {/* Quick Actions 
+            {/* Quick Actions */}
             <Card className="gradient-card border-border/50">
               <CardHeader>
                 <CardTitle>Quick Actions</CardTitle>
               </CardHeader>
-              <CardContent className="space-y-3">
+             <CardContent className="space-y-3">
+              <a
+                href={project.demoUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
                 <Button className="w-full gradient-purple-pink hover:opacity-90">
                   <ExternalLink className="w-4 h-4 mr-2" />
                   {t('viewDemo')}
                 </Button>
-                <Button variant="outline" className="w-full">
-                  <Github className="w-4 h-4 mr-2" />
-                  {t('viewCode')}
-                </Button>
-              </CardContent>
-            </Card>*/}
+              </a>
+            </CardContent>
+            </Card>
 
             {/* Project Stats 
             <Card className="gradient-card border-border/50">

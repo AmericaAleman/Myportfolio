@@ -19,13 +19,13 @@ export function Hero() {
     <section id="hero" className="min-h-screen flex items-center justify-center pt-20">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Avatar */}
+          {/* Avatar 
           <div className="mb-8">
             <Avatar className="w-50 h-50 mx-auto">
               <AvatarImage src="profile.png" />
               <AvatarFallback className="gradient-purple-pink text-white text-2xl">TN</AvatarFallback>
             </Avatar>
-          </div>
+          </div>*/}
 
           {/* Main content */}
           <div className="space-y-6">
