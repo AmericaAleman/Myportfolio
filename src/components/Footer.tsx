@@ -120,6 +120,7 @@ export function Footer() {
               © 2025 {t('madeWith')} 
               <Heart className="w-4 h-4 mx-1 text-accent fill-current" />
             </p>
+            <p>{t('version')} </p>
             <p className="mt-2 md:mt-0">
               {t('by')}
             </p>

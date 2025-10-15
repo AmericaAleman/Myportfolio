@@ -56,6 +56,7 @@ export interface TranslationData {
   collaborateDesc: string;
   navigation:string;
   followMe: string;
+  version: string;
   
   
   // Contact Form
@@ -211,6 +212,7 @@ export const translations: Record<Language, TranslationData> = {
     collaborateDesc:"Write me if you want to create something together.",
     navigation:"Navigation",
     followMe: "Follow me",
+    version: "Version 2.0",
   
     
     // Contact Form
@@ -300,7 +302,7 @@ export const translations: Record<Language, TranslationData> = {
         ],
         challenges: "",
         results: "",
-        image: "chatbot.png",
+        image: "chat IA.jpg",
         demoUrl: "https://www.figma.com/proto/CVpz6k8uPCQJxtuUYQMlDp/Chat-acad%C3%A9mico?node-id=0-1&t=L9bmTv3Q9Ri1jtnu-1",
         githubUrl: "#"
       },
@@ -320,7 +322,7 @@ export const translations: Record<Language, TranslationData> = {
         ],
         challenges: "",
         results: "",
-        image: "management.png",
+        image: "management.jpg",
         demoUrl: "https://www.figma.com/proto/Nj4zuRN75BPpemSyX90qiE/Chat-interactivo?page-id=0%3A1&node-id=3-1656&p=f&viewport=360%2C224%2C0.23&t=p4TDdO3m8epfXYBf-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3%3A2",
         githubUrl: "#"
       },
@@ -357,6 +359,7 @@ export const translations: Record<Language, TranslationData> = {
     collaborateDesc:"Escríbeme si quieres crear algo juntos.",
     navigation:"Navegación",
     followMe: "Sigueme",
+    version: "Versión 2.0",
     
     // Contact Form
     contactFormTitle: "Ponte en Contacto",
