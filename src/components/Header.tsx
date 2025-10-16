@@ -25,7 +25,7 @@ export function Header() {
 
   return (
     <header className="fixed top-0 w-full bg-background/80 backdrop-blur-md border-b border-border z-50">
-      <nav className="container mx-auto px-4 py-4">
+      <nav className="container px-6 py-3">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="cursor-pointer" onClick={() => scrollToSection('hero')}>
@@ -61,7 +61,7 @@ export function Header() {
           </div>
 
           {/* Actions */}
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center mr-2">
             <div className="hidden sm:flex items-center space-x-2">
               <Button variant="ghost" size="icon" asChild>
                 <a href="https://www.linkedin.com/in/americaaleman/" target="_blank" rel="noopener noreferrer">
@@ -81,6 +81,17 @@ export function Header() {
             </div>
             
             <LanguageSelector />
+
+            <Button variant="ghost" size="icon" asChild className="md:hidden">
+                  <a href="https://www.figma.com/design/aw162XJfBDSRbRobdPl3gC/Am%C3%A9rica-library?node-id=4348-301&t=uIMjBaZNjI9SbLMp-1" target="_blank" rel="noopener noreferrer">
+                    <Figma className="h-5 w-5" />
+                  </a>
+                </Button>
+                <Button variant="ghost" size="icon" asChild className="md:hidden">
+                  <a href="https://www.linkedin.com/in/americaaleman/" target="_blank" rel="noopener noreferrer">
+                    <Linkedin className="h-5 w-5" />
+                  </a>
+            </Button>
             
             <Button 
               variant="ghost" 
@@ -91,15 +102,15 @@ export function Header() {
               {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
             </Button>
 
-            <Button 
-              variant="ghost" 
-              size="icon" 
-              className="md:hidden"
+              {/* <Button
+              variant="ghost"
+              size="icon"
+              className="md:hidden absolute right-4 top-3 p-3 rounded-full bg-background/70 hover:bg-background/80 border border-border/50 shadow-lg z-50"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               aria-label={t('toggleMenu')}
             >
-              <Menu className="h-5 w-5" />
-            </Button>
+              <Menu className="h-6 w-6 text-muted-foreground" />
+            </Button>*/}
           </div>
         </div>
 
@@ -134,12 +145,12 @@ export function Header() {
               
               <div className="flex items-center space-x-2 pt-4 border-t border-border">
                 <Button variant="ghost" size="icon" asChild>
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-                    <Github className="h-5 w-5" />
+                  <a href="https://www.figma.com/design/aw162XJfBDSRbRobdPl3gC/Am%C3%A9rica-library?node-id=4348-301&t=uIMjBaZNjI9SbLMp-1" target="_blank" rel="noopener noreferrer">
+                    <Figma className="h-5 w-5" />
                   </a>
                 </Button>
                 <Button variant="ghost" size="icon" asChild>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/americaaleman/" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="h-5 w-5" />
                   </a>
                 </Button>

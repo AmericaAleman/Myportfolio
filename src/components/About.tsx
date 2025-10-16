@@ -157,11 +157,11 @@ export function About() {
           </div>
 
           {/* Features grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 items-stretch">
             {features.map((feature, index) => (
               <Card
                 key={index}
-                className="gradient-card border-border/50 hover:shadow-lg transition-all duration-300 hover:scale-105"
+                className="gradient-card border-border/50 hover:shadow-lg transition-all duration-300 hover:scale-105 h-full"
               >
                 <CardContent className="p-6 text-center">
                   <div className="w-12 h-12 gradient-purple-pink rounded-lg flex items-center justify-center mx-auto mb-4">
